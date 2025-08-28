@@ -1,55 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
+:root {
+  --black-color: #0e0e0e;
+  --main-color: #1498e4;
+  --buton-color: #2f3131;
+  --arka-plan: #0000003b;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+
+.btn{
+background-color: #000000;
+color: rgb(255, 254, 254);
+-webkit-border-radius:   5px;
+-moz-border-radius:  5px;
+border-radius:  5px;
+
+}
+
+.h1e{
+font-family: 'Poppins', sans-serif;
+
+}
+.h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.eklet{
+margin-left: auto;  
+margin-right: auto;  
+text-align: left;
+width:80%;
+
+}
+.bnt {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.bnt:hover {
+  background-color: #2a2b2b;
+}
 .card {
-    border: 2px solid #ccc; 
-    border-radius: 8px;
-    padding: 16px;
-    width: 300px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    text-align: center; 
-    margin: auto; 
-    display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  
 }
 
 .card h2 {
-    font-size: 24px;
-    margin: 10px 0;
+  font-size: 24px;
+  margin: 10px 0;
+  
 }
 
 .card label {
-    display: block;
-    margin: 10px 0 5px;
-    text-align: left; /
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+  
 }
 
 .card input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
 }
 
 .card button {
-    background-color: #202020;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    width: 100%; 
-    margin-top: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  
 }
-
-.card .back-button {
-    background-color: #f44336; 
-}
-
-.bos {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
+.card{
+  display: block;
+        margin: auto;
+        border: 2px solid black;
+      }
