@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- 🔹 Form -->
 <nav class="card">
     <h2>Kullanıcı Düzenle</h2>
-    <form method="post">
+    <form method="post" class="eklet">
         <label class="k-ad">Kullanıcı Adı:</label><br>
         <input type="text" name="UserName" value="<?php echo $kullanici['UserName']; ?>"><br><br>
 
@@ -61,3 +61,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </body>
 </html>
+
