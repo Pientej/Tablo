@@ -1,0 +1,40 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Hareketli Arka Plan */
+body {
+  background: linear-gradient(-45deg, #1498e4, #008080, #213c50, #C6DCDF);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+/* Arka plan animasyonu */
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Opsiyonel: sayfa içeriği için padding */
+section {
+  padding: 3rem 5%;
+  color: #fff;
+}

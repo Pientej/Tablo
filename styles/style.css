@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  --black-color: #0e0e0e;
+  --main-color: #1498e4;
+  --buton-color: #2f3131;
+  --arka-plan: #0000003b;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.table-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow-x: auto;
+  /* Mobilde yana kaydırma */
+}
+
+.tablo {
+  border-collapse: collapse;
+  color: #000000;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 500px;
+  /* Dar ekranlarda bozulmayı engeller */
+  border-top: none;
+  /* Üst çizgiyi kaldırdık */
+  border-bottom: 1px solid #dddddd;
+}
+
+.tablo th {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 15px;
+  font-weight: 500;
+  border-bottom: 2px solid #ddd;
+  /* Alt çizgi */
+}
+
+.tablo td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ffffff;
+
+}
+
+.tablo tr:hover {
+  background-color: #f2f2f2;
+  transition: background-color 0.3s;
+
+}
+
+.tablo2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bnt {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.bnt:hover {
+  background-color: #2a2b2b;
+}
+
+.k-ad {
+  color: #ffffff;
+}
+
+.ad {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+  
+}
+
+.card input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card .back-button {
+  background-color: #f44336;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Mobil uyum eklemeleri */
+@media (max-width: 600px) {
+  .tablo {
+    min-width: unset;
+    font-size: 12px;
+  }
+
+  .tablo th,
+  .tablo td {
+    padding: 8px;
+    font-size: 12px;
+
+
+  }
+
+  .bnt,
+  .delete {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .h2 {
+    font-size: 18px;
+  }
+
+  .table-box {
+    padding: 10px;
+  }
+}
+
+.body {
+  background-color: #fff8f8;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+
+.card {
+  min-width: unset;
+  font-size: 12px;
+ 
+}
+
+.delete-button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.ekle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: rgb(255, 254, 254);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 1%;
+}
+
+.btn {
+  background-color: #000000;
+  color: rgb(255, 254, 254);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.h1e {
+  font-family: 'Poppins', sans-serif;
+}
+
+.kara {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: rgb(255, 254, 254);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 6%;
+}
+
+.tablo th,
+.tablo td {
+  border-color: #000000;
+
+
+  border-left: #ffffff;
+  border-right: #ffffff;
+}
+
+.tablo {
+  display: block;
+  margin: auto;
+  border: 2px solid rgb(0, 0, 0);
+  
+}
+
+.tablo {
+  box-sizing: border-box;
+}
+
+.delete-button {
+  color: #ff4a3d;
+  background-color: transparent;
+}
