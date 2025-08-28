@@ -8,32 +8,31 @@
   --border: 0.1rem solid rgba(255, 255, 255, 0.4);
 }
 
-
-.btn{
-background-color: #000000;
-color: rgb(255, 254, 254);
--webkit-border-radius:   5px;
--moz-border-radius:  5px;
-border-radius:  5px;
-
+.btn {
+  background-color: #000000;
+  color: rgb(255, 254, 254);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
-.h1e{
-font-family: 'Poppins', sans-serif;
-
+.h1e {
+  font-family: 'Poppins', sans-serif;
 }
+
 .h2 {
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
-.eklet{
-margin-left: auto;  
-margin-right: auto;  
-text-align: left;
-width:80%;
 
+.eklet {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 80%;
 }
+
 .bnt {
   color: #ffffff;
   background-color: #000000;
@@ -48,6 +47,7 @@ width:80%;
 .bnt:hover {
   background-color: #2a2b2b;
 }
+
 .card {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -57,20 +57,19 @@ width:80%;
   background-color: white;
   text-align: center;
   margin: auto;
-  
+  display: block;
+  border: 2px solid black;
 }
 
 .card h2 {
   font-size: 24px;
   margin: 10px 0;
-  
 }
 
 .card label {
   display: block;
   margin: 10px 0 5px;
   text-align: left;
-  
 }
 
 .card input {
@@ -79,7 +78,12 @@ width:80%;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  
+  outline: none; /* Odaklandığında çıkan varsayılan mavi çizgiyi kaldırır */
+}
+
+.card input:focus {
+  border-color: #000000; /* Odaklandığında çerçeve rengini siyah yapar */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Odaklandığında hafif bir gölge ekler */
 }
 
 .card button {
@@ -91,10 +95,4 @@ width:80%;
   cursor: pointer;
   width: 100%;
   margin-top: 10px;
-  
 }
-.card{
-  display: block;
-        margin: auto;
-        border: 2px solid black;
-      }
