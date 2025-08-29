@@ -126,7 +126,8 @@ if (isset($_GET['sil'])) {
       $('body').toggleClass('karanlik-mod');
     });
   </script>
-<small class="small"  > © 2020 Copyrights by Yağız Buyrukçu Tüm hakları saklıdır.</small>
+<small class="small"  > © 2025 Copyrights by Yağız Buyrukçu Tüm hakları saklıdır.</small>
 </body>
 
 </html>
+
